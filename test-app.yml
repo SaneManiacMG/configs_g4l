@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgres://localhost:5432/g4l_lms_db
+    username: g4l_dev
+    password: P@ssword1
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        show_sql: true
+    hibernate:
+      ddl-auto: update
+      
